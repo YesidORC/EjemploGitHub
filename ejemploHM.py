@@ -41,8 +41,17 @@ class Casco:
     def setNe(self,n):
         self.__ne = n
         
-    def setUb(self,u):
+    def setUb(self):
         self.__ub = u
+        
+    def getTam(self,t):
+        return self.__tam
+    
+    def getNe(self):
+        return self.__ne
+        
+    def getUb(self):
+        return self.__ub
         
     def registrar(self,u):
         self.ub = u
