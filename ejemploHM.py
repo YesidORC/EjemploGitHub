@@ -27,15 +27,28 @@ class Persona:
 
 class Casco:
     def __init__(self):
-        self.tam = 0
-        self.ne = 0
-        self.ub = ""
+        self.__tam = 0
+        self.__ne = 0
+        self.__ub = ""
 
-    def __str__(self) -> str:
-        return f"Este es un casco de tamaño {self.tam}"
+    def __str__(self):
+        return f"Este es un casco de tamaño {self.__tam}"
+    
+
+    def setTam(self,t):
+        self.__tam = t
+    
+    def setNe(self,n):
+        self.__ne = n
+        
+    def setUb(self,u):
+        self.__ub = u
+        
     def registrar(self,u):
         self.ub = u
-        print(f"El casco quedó registrado en {self.ub}")
+        print(f"El casco quedó registrado en {self.__ub}")
+        
+    def 
 
 while True:
     x=Casco()
