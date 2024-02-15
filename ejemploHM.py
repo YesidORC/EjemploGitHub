@@ -3,7 +3,7 @@ c=0
 
 
 class Persona:
-    def __init__(self) -> None:
+    def __init__(self):
         self.__nombre = "Juan"
         self.__altura = 0.0
         self.__edad = 0
